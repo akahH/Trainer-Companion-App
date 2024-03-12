@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shiny_tracker">LISTA DE SHINY</string>
+    <string name="hall_of_fame">CORREDOR DA FAMA</string>
+    <string name="team_builder">CONSTRUTOR DE EQUIPA</string>
+    <string name="resists">RESISTE</string>
+    <string name="neutral">NEUTRO</string>
+    <string name="weak_against">FRACO CONTRA</string>
+    <string name="type_analyzer">ANALISADOR DE TIPOS</string>
+    <string name="national_dex">DEX NACIONAL</string>
+    <string name="choose_a_dex">ESCOLHE UM DEX</string>
+    <string name="choose_a_game">ESCOLHE UM JOGO</string>
+    <string name="save_team">SALVAR EQUIPA</string>
+    <string name="log_in">ENTRAR</string>
+    <string name="google_log_in">ENTRAR COM GOOGLE</string>
+    <string name="sign_up">REGISTAR</string>
+    <string name="sign_out">SAIR</string>
+    <string name="shiny_info">Shiny Tracker é uma experiência premium para a qual te podes  inscrever e que permite verificar quais os pokémon shiny que apanhaste ou simplesmente ver a sua forma shiny.</string>
+    <string name="hof_info">Hall of Fame permite que acompanhes quais as equipas que te levaram à glória na Liga de Pokémon ao longo de todos os jogos.</string>
+    <string name="pokedex_info">"Com o Pokédex podes verificar qualquer Pokémon que exista,  filtrando por nome ou filtrando o Dex por Geração. "</string>
+    <string name="team_builder_info">Usa o Team builder para manteres a tua equipa favorita junta.</string>
+    <string name="about_info">O Trainer Companion App pretende ser uma compilação de ferramentas que os fãs de Pokémon podem usar.</string>
+    <string name="favorite_pok_mon">" Pokémon favorito"</string>
+    <string name="user_setttings">Definições de Utilizador</string>
+    <string name="author">Autor</string>
+    <string name="about">Sobre</string>
+    <string name="favorite_pokemon">Pokemon Favorito</string>
+    <string name="student_at_isel_46292">ESTUDANTE NO ISEL : 46292</string>
+    <string name="lock_team">Bloquear Equipa</string>
+    <string name="enter_nickname">Introduzir Alcunha</string>
+    <string name="pokemon_nickname">Alcunha do Pokémon</string>
+    <string name="pokemon_sprites">Imagens do Pokémon</string>
+    <string name="back_to_start">Voltar ao Inicio</string>
+    <string name="find_out_a_new_pok_mon">DESCOBRIR UM NOVO POKÉMON</string>
+    <string name="explore_the_pokedex">EXPLORAR O POKÉDEX</string>
+    <string name="explore_the_app">EXPLORAR A APP</string>
+</resources>

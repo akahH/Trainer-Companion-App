@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueApp"
+    tools:context=".ui.HallOfFameActivity">
+
+    <TextView
+        android:id="@+id/hofTitle"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hall_of_fame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/hofTeams"
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toTopOf="@+id/addTeamButton"
+        app:layout_constraintEnd_toEndOf="@+id/hofTitle"
+        app:layout_constraintStart_toStartOf="@+id/hofTitle"
+        app:layout_constraintTop_toBottomOf="@+id/hofTitle"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+    <ImageView
+        android:id="@+id/addTeamButton"
+        android:layout_width="73dp"
+        android:layout_height="68dp"
+        android:contentDescription="@string/addteam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/hofTeams"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/hofTeams"
+        app:layout_constraintTop_toBottomOf="@+id/hofTitle"
+        app:layout_constraintVertical_bias="0.973"
+        app:srcCompat="@drawable/addteambutton"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

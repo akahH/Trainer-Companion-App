@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shiny_tracker">TRACEUR BRILLANT</string>
+    <string name="team_builder">BÂTISSEUR D\'ÉQUIPE</string>
+    <string name="hall_of_fame">TEMPLE DE LA RENOMMÉE</string>
+    <string name="resists">RÉSISTE</string>
+    <string name="neutral">NEUTRE</string>
+    <string name="weak_against">FAIBLE CONTRE</string>
+    <string name="type_analyzer">ANALYSEUR DE TYPES</string>
+    <string name="national_dex">NATIONAL DEX</string>
+    <string name="choose_a_dex">CHOISIS UN</string>
+    <string name="choose_a_game">CHOISIS UN JEU</string>
+    <string name="save_team">SAUVEGARDER L\'ÉQUIPE</string>
+    <string name="log_in">CONNEXION</string>
+    <string name="google_log_in">CONNEXION GOOGLE</string>
+    <string name="sign_up">S\'INSCRIRE</string>
+    <string name="sign_out">SE DÉCONNECTER</string>
+    <string name="student_at_isel_46292">ESTUDANTE NO ISEL : 46292</string>
+    <string name="favorite_pokemon">Pokémon Favorito</string>
+    <string name="about">Sur</string>
+    <string name="author">Auteur</string>
+    <string name="user_setttings">" Paramètres utilisateur"</string>
+    <string name="favorite_pok_mon">" Pokémon préférés "</string>
+    <string name="about_info">"Tainer Companion App vise à être une compilation d'outils que les fans de Pokémon peuvent utiliser. "</string>
+    <string name="team_builder_info">Utilisez Team Builder où vous pouvez garder votre équipe préférée ensemble.</string>
+    <string name="pokedex_info">" Avec Pokédex, vous pouvez vérifier tous les Pokémon qui existent, vous pouvez filtrer par nom ou filtrer le Dex par génération. "</string>
+    <string name="hof_info">" Hall of Fame vous permet de garder une trace des équipes qui vous ont mené à la gloire dans la Ligue Pokémon tout au long de tous les jeux. "</string>
+    <string name="shiny_info">" Shiny Tracker est une expérience premium à laquelle vous pouvez vous abonner qui vous permet de suivre quel pokémon brillant vous avez attrapé ou simplement de voir leur forme brillante. "</string>
+    <string name="pokemon_sprites">Lutins Pokémon</string>
+    <string name="pokemon_nickname">Surnom Pokémon</string>
+    <string name="enter_nickname">Entrez le Surnom</string>
+    <string name="lock_team">" Bloquer l'équipe"</string>
+    <string name="explore_the_app">EXPLOREZ L\'APPLICATION</string>
+    <string name="back_to_start">" Retour au début"</string>
+    <string name="find_out_a_new_pok_mon">DÉCOUVREZ UN NOUVEAU POKÉMON</string>
+    <string name="explore_the_pokedex">EXPLOREZ LE POKEDEX</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueApp"
+        tools:context=".ui.PokedexSelectionActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.68">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:background="@color/whiteApp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/pokemonNameDex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/pokemonname"
+                        android:textAlignment="center"
+                        android:textColor="@color/blueApp"
+                        android:textSize="20sp" />
+
+                <ImageView
+                        android:id="@+id/pokemonImageDexDetail"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        app:srcCompat="@drawable/pokeball_cover" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/pokemonTypes"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal" />
+
+            <TextView
+                    android:text="@string/pokemon_nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pokemonTeamNicknameDetail"
+                    style="@style/title"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    tools:ignore="TextContrastCheck" />
+
+            <EditText
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pokemonNickname"
+                    android:textAlignment="center"
+                    android:hint="@string/enter_nickname"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    android:textColor="@color/whiteApp"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

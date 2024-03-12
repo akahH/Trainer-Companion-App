@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueApp"
+    tools:context=".ui.PokedexSelectionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                        android:id="@+id/linearLayout"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:background="@color/whiteApp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/pokemonNameDex"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/cocogoose_font"
+                            android:text="PokemonName"
+                            android:textAlignment="center"
+                            android:textColor="@color/blueApp"
+                            android:textSize="20sp" />
+
+                    <ImageView
+                            android:id="@+id/pokemonImageDexDetail"
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            app:srcCompat="@drawable/pokeball_cover" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/pokemonTypes"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/hpText"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/hp"
+                        android:textColor="@color/whiteApp" />
+
+                    <com.skydoves.progressview.ProgressView
+                        android:id="@+id/hpBar"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        app:progressView_colorBackground="@color/whiteApp"
+                        app:progressView_colorProgress="@color/black"
+                        app:progressView_labelSize="10dp"
+                        app:progressView_labelTypeface="bold"
+                        app:progressView_max="255"
+                        app:progressView_min="0"
+                        app:progressView_progress="100" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/atkText"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/atk"
+                        android:textColor="@color/whiteApp" />
+
+                    <com.skydoves.progressview.ProgressView
+                        android:id="@+id/atkBar"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        app:progressView_colorBackground="@color/whiteApp"
+                        app:progressView_colorProgress="@color/black"
+                        app:progressView_labelSize="10dp"
+                        app:progressView_labelTypeface="bold"
+                        app:progressView_max="255"
+                        app:progressView_min="1"
+                        app:progressView_progress="100" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/defText"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/def"
+                        android:textColor="@color/whiteApp" />
+
+                    <com.skydoves.progressview.ProgressView
+                        android:id="@+id/defBar"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        app:progressView_colorBackground="@color/whiteApp"
+                        app:progressView_colorProgress="@color/black"
+                        app:progressView_labelSize="10dp"
+                        app:progressView_labelTypeface="bold"
+                        app:progressView_max="255"
+                        app:progressView_min="1"
+                        app:progressView_progress="100" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/spaText"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/spa"
+                        android:textColor="@color/whiteApp" />
+
+                    <com.skydoves.progressview.ProgressView
+                        android:id="@+id/spaBar"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        app:progressView_colorBackground="@color/whiteApp"
+                        app:progressView_colorProgress="@color/black"
+                        app:progressView_labelSize="10dp"
+                        app:progressView_labelTypeface="bold"
+                        app:progressView_max="255"
+                        app:progressView_min="0"
+                        app:progressView_progress="100" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/spdText"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/spd"
+                        android:textColor="@color/whiteApp" />
+
+                    <com.skydoves.progressview.ProgressView
+                        android:id="@+id/spdBar"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        app:progressView_colorBackground="@color/whiteApp"
+                        app:progressView_colorProgress="@color/black"
+                        app:progressView_labelSize="10dp"
+                        app:progressView_labelTypeface="bold"
+                        app:progressView_max="255"
+                        app:progressView_min="0"
+                        app:progressView_progress="100" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/speText"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/cocogoose_font"
+                        android:text="@string/spe"
+                        android:textColor="@color/whiteApp" />
+
+                    <com.skydoves.progressview.ProgressView
+                        android:id="@+id/speBar"
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        app:progressView_colorBackground="@color/whiteApp"
+                        app:progressView_colorProgress="@color/black"
+                        app:progressView_labelConstraints="align_progress"
+                        app:progressView_labelSize="10dp"
+                        app:progressView_labelTypeface="bold"
+                        app:progressView_max="255"
+                        app:progressView_min="0"
+                        app:progressView_progress="100" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                    android:id="@+id/evolutionText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/cocogoose_font"
+                    android:text="@string/pokemon_sprites"
+                    android:textColor="@color/whiteApp"
+                    android:textSize="24sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"
+                    android:id="@+id/pokemonSprites" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

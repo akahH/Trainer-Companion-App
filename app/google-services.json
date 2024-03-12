@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "547103696346",
+    "project_id": "trainer-companion-app",
+    "storage_bucket": "trainer-companion-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547103696346:android:7717fb543292af304dcce3",
+        "android_client_info": {
+          "package_name": "com.example.trainercompanionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547103696346-hr2rjgm3gi6mqtcagh7md4spp33vds9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA9L3vYJNWdEXKtVO9Adlis2ffCKwYXPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547103696346-hr2rjgm3gi6mqtcagh7md4spp33vds9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547103696346:android:099ef55b0858cce34dcce3",
+        "android_client_info": {
+          "package_name": "com.isel.trainerCompanionApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547103696346-hr2rjgm3gi6mqtcagh7md4spp33vds9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA9L3vYJNWdEXKtVO9Adlis2ffCKwYXPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547103696346-hr2rjgm3gi6mqtcagh7md4spp33vds9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

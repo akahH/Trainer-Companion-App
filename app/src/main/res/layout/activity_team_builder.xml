@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueApp"
+    tools:context=".ui.TeamBuilderActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cocogoose_font"
+        android:text="@string/team_builder"
+        android:textAlignment="center"
+        android:textColor="@color/whiteApp"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="TextContrastCheck" />
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:id="@+id/teamBuilderRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/addTeam1"
+                layout="@layout/team_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp" />
+
+            <include
+                android:id="@+id/addTeam2"
+                layout="@layout/team_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/teamBuilderRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/addTeam3"
+                layout="@layout/team_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp" />
+
+            <include
+                android:id="@+id/addTeam4"
+                layout="@layout/team_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/teamBuilderRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <include
+                android:id="@+id/addTeam5"
+                layout="@layout/team_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp" />
+
+            <include
+                android:id="@+id/addTeam6"
+                layout="@layout/team_item"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

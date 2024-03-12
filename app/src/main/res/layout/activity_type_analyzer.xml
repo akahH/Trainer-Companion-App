@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueApp"
+    tools:context=".ui.TypeAnalyzerActivity">
+
+    <TextView
+        android:id="@+id/typeAnalyzerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/cocogoose_font"
+        android:text="@string/type_analyzer"
+        android:textColor="@color/whiteApp"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/weakText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33999997"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/weakText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteApp"
+        android:fontFamily="@font/cocogoose_font"
+        android:text="@string/weak_against"
+        android:textAlignment="center"
+        android:textColor="@color/blueApp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24000001"
+        tools:ignore="TextContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/weakText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weakText"
+        app:layout_constraintTop_toBottomOf="@+id/weakText"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <TableLayout
+            android:id="@+id/weakTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/weakText3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/whiteApp"
+        android:fontFamily="@font/cocogoose_font"
+        android:text="@string/resists"
+        android:textAlignment="center"
+        android:textColor="@color/blueApp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.76"
+        tools:ignore="TextContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintBottom_toTopOf="@+id/weakText4"
+        app:layout_constraintEnd_toEndOf="@+id/weakText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weakText"
+        app:layout_constraintTop_toBottomOf="@+id/weakText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <TableLayout
+            android:id="@+id/resistTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/weakText4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@color/whiteApp"
+        android:fontFamily="@font/cocogoose_font"
+        android:text="@string/neutral"
+        android:textAlignment="center"
+        android:textColor="@color/blueApp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintStart_toStartOf="@+id/scrollView3"
+        tools:ignore="TextContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/weakText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weakText"
+        app:layout_constraintTop_toBottomOf="@+id/weakText"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <TableLayout
+            android:id="@+id/neutralTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

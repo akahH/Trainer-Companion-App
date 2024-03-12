@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueApp"
+        tools:context=".ui.MainActivity">
+
+    <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="320dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/app_logo"
+            tools:ignore="ImageContrastCheck" />
+
+    <Button
+            android:id="@+id/teamBuilderButton"
+            android:layout_width="320dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/whiteApp"
+            android:fontFamily="@font/cocogoose_font"
+            android:text="@string/team_builder"
+            android:textColor="@color/blueApp"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/appLogo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/appLogo"
+            app:layout_constraintTop_toBottomOf="@+id/appLogo"
+            app:layout_constraintVertical_bias="0.04000002"
+            tools:ignore="TextContrastCheck" />
+
+    <Button
+            android:id="@+id/shinyButton"
+            android:layout_width="320dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/whiteApp"
+            android:fontFamily="@font/cocogoose_font"
+            android:text="@string/shiny_tracker"
+            android:textColor="@color/blueApp"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/appLogo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/appLogo"
+            app:layout_constraintTop_toBottomOf="@+id/hofButton"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="TextContrastCheck" />
+
+    <Button
+            android:id="@+id/pokedexButton"
+            android:layout_width="320dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/whiteApp"
+            android:fontFamily="@font/cocogoose_font"
+            android:text="@string/pok_dex"
+            android:textColor="@color/blueApp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/appLogo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/appLogo"
+            app:layout_constraintTop_toBottomOf="@+id/teamBuilderButton"
+            tools:ignore="TextContrastCheck" />
+
+    <Button
+            android:id="@+id/hofButton"
+            android:layout_width="320dp"
+            android:layout_height="98dp"
+            android:backgroundTint="@color/whiteApp"
+            android:fontFamily="@font/cocogoose_font"
+            android:text="@string/hall_of_fame"
+            android:textColor="@color/blueApp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/appLogo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/appLogo"
+            app:layout_constraintTop_toBottomOf="@+id/pokedexButton"
+            tools:ignore="TextContrastCheck" />
+
+    <Button
+            android:id="@+id/signOutMain"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/whiteApp"
+            android:fontFamily="@font/cocogoose_font"
+            android:text="@string/sign_out"
+            android:textColor="@color/blueApp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/shinyButton"
+            app:layout_constraintStart_toStartOf="@+id/shinyButton"
+            app:layout_constraintTop_toBottomOf="@+id/shinyButton"
+            app:layout_constraintVertical_bias="0.176"
+            tools:ignore="TextContrastCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+            android:id="@+id/logInMain"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/whiteApp"
+            android:fontFamily="@font/cocogoose_font"
+            android:text="@string/log_in"
+            android:textColor="@color/blueApp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/shinyButton"
+            app:layout_constraintStart_toStartOf="@+id/shinyButton"
+            app:layout_constraintTop_toBottomOf="@+id/shinyButton"
+            app:layout_constraintVertical_bias="0.176"
+            tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/font/cocogoose.xml" value="0.39166666666666666" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/font/cocogoose_font.xml" value="0.39166666666666666" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_author.xml" value="0.25" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_explore.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_hall_of_fame.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_hall_of_fame_games.xml" value="0.2597984322508399" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_hall_of_fame_team.xml" value="0.22" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_pokedex.xml" value="0.328804347826087" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_pokedex_selection.xml" value="0.25" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_select_dex.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_shiny_dex.xml" value="0.25" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_shiny_dex_selection.xml" value="0.1" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_team_builder.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_team_builder_selection.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_type_analyzer.xml" value="0.328804347826087" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/activity_user_settings.xml" value="0.3625" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/hof_item.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/landing_item.xml" value="0.5" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/pokedex_item.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/select_dex_item.xml" value="0.3935546875" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/sprite_row.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/team_builder_item.xml" value="0.5" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/team_item.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/layout/type_template.xml" value="0.5" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/menu/hof_menu.xml" value="0.29907407407407405" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/menu/pokedex_menu.xml" value="0.3569230769230769" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/menu/shiny_dex_menu.xml" value="0.33" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/menu/team_builder_menu.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/migue/AndroidStudioProjects/TrainerCompanionApp/app/src/main/res/menu/user_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

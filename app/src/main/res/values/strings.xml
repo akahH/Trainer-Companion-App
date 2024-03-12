@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name" translatable="false">Trainer Companion App</string>
+    <string name="shiny_tracker">SHINY TRACKER</string>
+    <string name="hall_of_fame">HALL OF FAME</string>
+    <string name="pok_dex" translatable="false">POKÉDEX</string>
+    <string name="team_builder">TEAM BUILDER</string>
+    <string name="logo" translatable="false">logo</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="resists">RESISTS</string>
+    <string name="weak_against">WEAK AGAINST</string>
+    <string name="type_analyzer">TYPE ANALYZER</string>
+    <string name="national_dex">NATIONAL DEX</string>
+    <string name="bulbausaur" translatable="false">Bulbausaur</string>
+    <string name="monimage" translatable="false">monImage</string>
+    <string name="choose_a_dex">CHOOSE A DEX</string>
+    <string name="dexbutton" translatable="false">dexButton</string>
+    <string name="pok_mon_red" translatable="false">POKÉMON RED</string>
+    <string name="game" translatable="false">game</string>
+    <string name="save_team">SAVE TEAM</string>
+    <string name="log_in">LOG IN</string>
+    <string name="addteam" translatable="false">addTeam</string>
+    <string name="background" translatable="false">background</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="user" translatable="false">User</string>
+    <string name="email" translatable="false">EMAIL</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="pokemon_crystal" translatable="false">POKEMON CRYSTAL</string>
+    <string name="pokemon" translatable="false">pokemon</string>
+    <string name="shiny_dex" translatable="false">SHINY DEX</string>
+    <string name="choose_a_game">CHOOSE A GAME</string>
+    <string name="google_log_in">GOOGLE LOG IN</string>
+    <string name="neutral">NEUTRAL</string>
+    <string name="student_at_isel_46292">STUDENT AT ISEL : 46292</string>
+    <string name="miguel_ginga" translatable="false">MIGUEL GINGA</string>
+    <string name="pokemonauthor" translatable="false">pokemonAuthor</string>
+    <string name="profilepicture" translatable="false">profilePicture</string>
+    <string name="nickname" translatable="false">Nickname</string>
+    <string name="favorite_pokemon">Favorite Pokemon</string>
+    <string name="about">About</string>
+    <string name="author">Author</string>
+    <string name="user_setttings">User Setttings</string>
+    <string name="nicknameDetail" translatable="false">Nickname</string>
+    <string name="favorite_pok_mon">Favorite Pokémon</string>
+    <string name="nickname_detail" translatable="false">Nickname</string>
+    <string name="about_info">Trainer Companion App aims to be a compilation of tools that Pokémon fans can make use of.</string>
+    <string name="team_builder_info">Use Team Builder where you can keep your favorite team together.</string>
+    <string name="pokedex_info">With Pokédex you can check any Pokémon that exists, you can filter by name or filter the Dex by Generation.</string>
+    <string name="hof_info">Hall of Fame let\'s you keep track wich teams have led you to glory on the Pokémon League throughout all the games.</string>
+    <string name="shiny_info">Shiny Tracker is a premium experience for wich you can subscribe wich allows you to track wich shiny pokémon you\'ve caught or to simply see their shiny form.</string>
+    <string name="lock_team">Lock Team</string>
+    <string name="enter_nickname">Enter Nickname</string>
+    <string name="pokemon_nickname">Pokemon Nickname</string>
+    <string name="pokemonname" translatable="false">PokemonName</string>
+    <string name="hp" translatable="false">HP</string>
+    <string name="atk" translatable="false">ATK</string>
+    <string name="def" translatable="false">DEF</string>
+    <string name="spa" translatable="false">SPA</string>
+    <string name="spd" translatable="false">SPD</string>
+    <string name="spe" translatable="false">SPE</string>
+    <string name="pokemon_sprites">Pokemon Sprites</string>
+    <string name="explore_the_app">EXPLORE THE APP</string>
+    <string name="back_to_start">Back to Start</string>
+    <string name="find_out_a_new_pok_mon">FIND OUT A NEW POKÉMON</string>
+    <string name="explore_the_pokedex">EXPLORE THE POKEDEX</string>
+
+</resources>
